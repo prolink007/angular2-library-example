@@ -8,9 +8,7 @@ import {Component} from 'angular2/core';
             color: blue;
         }
     `],
-    template: `<div>
-                  <h1 (click)="onClick()">{{message}}</h1>
-               </div>`
+    templateUrl: "HelloWorld.html"
 })
 export class HelloWorld {
 
